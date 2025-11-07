@@ -1,0 +1,91 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+    background-color: #251480;
+    color: white;
+    padding-top: 0;
+}
+
+h1 {
+    color: white;
+    font-weight: 700;
+}
+
+.hero-section {
+    position: relative;
+}
+
+.top-image {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    object-fit: cover;
+    display: block;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #251480;
+    padding: 20px;
+    border-bottom-right-radius: 15px;
+}
+
+.logo-overlay img {
+    width: 120px;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+    background-color: #251480;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 300px;
+    line-height: 1.3;
+    border-top-left-radius: 15px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 16px;
+}
+
+.highlight-text {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.inline-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.footer-principal {
+    background-color: #1E008E;
+    padding: 20px 0;
+}
+
+.footer-contact {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}

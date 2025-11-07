@@ -1,0 +1,30 @@
+header {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #1E008E; 
+  text-decoration: none;
+}
+
+header {
+    padding-top: 15px;
+}
+.logo {
+    width: 325px;
+}
+
+.col-3 svg {
+   
+    margin-right: 20px;
+}
+
+.btn-entrar {
+    
+    background-color: #1E008E;
+    color: white; 
+    border-radius: 30px; 
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 15px;
+   
+}
+

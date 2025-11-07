@@ -1,0 +1,88 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #1E008E;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+    padding-top: 15px;
+}
+.logo {
+    width: 325px;
+}
+
+.col-3 svg {
+   
+    margin-right: 20px;
+}
+
+.btn-entrar {
+    
+    background-color: #1E008E;
+    color: white; 
+    border-radius: 30px; 
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 15px;
+   
+}
+main {
+    background-color: #FFFF00;
+    flex-grow: 1;
+}
+.logo-2 {
+    width: 325px;
+    padding-top: 10px;
+}
+.cadastro {
+    font-size: 40px;
+    font-weight: 800;
+}
+.form-control {
+    background-color: #FFFF00;
+    border-color: black;
+    border-width: 2px;
+    width: 350px;
+    padding-bottom: 5px;
+    
+}
+.mb-3 {
+    
+    width: 350px; 
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-cadastrar {
+    
+    display: inline-block; 
+    background-color: #1E008E; 
+    border-radius: 20px; 
+    padding: 7px 20px; 
+    font-weight: bold;
+    text-align: center; 
+    color: white;
+    width: 150px;
+    font-weight: 400;
+    border: none;
+}
+footer {
+ 
+ background-color: #FFFF00;
+}
+
+.footer-principal {
+    background-color: #1E008E;
+    padding: 20px 0;
+}
+
+.modal-info-text {
+    color: #1E008E;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
