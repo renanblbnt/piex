@@ -133,6 +133,16 @@ body {
     gap: 40px;
 }
 
+.footer-socials a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-socials a:last-child {
+    margin-right: 0;
+}
+
 .footer-title {
     font-size: 1.1rem;
     font-weight: 600;

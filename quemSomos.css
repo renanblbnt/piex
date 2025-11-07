@@ -89,3 +89,13 @@ h1 {
     font-size: 24px;
     margin: 0;
 }
+
+.footer-socials a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer-socials a:last-child {
+    margin-right: 0;
+}
